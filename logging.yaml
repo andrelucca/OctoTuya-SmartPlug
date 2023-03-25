@@ -1,0 +1,3 @@
+loggers:
+  octoprint.plugins.octotuya:
+    level: DEBUG
