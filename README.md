@@ -1,5 +1,5 @@
 # OctoTuya-SmartPlug
-With this plugin you'll be able to control [Tuya-based](https://en.tuya.com/) SmartPlugs either directly from Octoprint Web interface or through GCODE comands<br>
+With this plugin you'll be able to control [Tuya-based](https://en.tuya.com/) SmartPlugs either directly from Octoprint Web interface or through GCODE commands<br>
 
 Work based on [OctoPrint-octotuya](https://github.com/ziirish/OctoPrint-octotuya). <br>
 The original plugin by [ziirish](https://github.com/ziirish) was a must have to my 3D printing setup since my printer is connect to a Tuya smart outlet.<br>
