@@ -1,4 +1,4 @@
-#Heads up!<br>
+# Heads up!<br>
 I was developing and adjusting this plugin on my spare time, but my life changed a lot and I'm currently unable to provide new updates and help the community. 
 I'm still using it on my OctoPrint setup, and it's still working, so if you want to try it, fell free.
 
