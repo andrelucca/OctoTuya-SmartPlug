@@ -1,6 +1,10 @@
 # Heads up!<br>
 I was developing and adjusting this plugin on my spare time, but my life changed a lot and I'm currently unable to provide new updates and help the community. 
-I'm still using it on my OctoPrint setup, and it's still working, so if you want to try it, fell free.
+I'm still using it on my OctoPrint setup, and it's still working, so if you want to try it, fell free.<br><br>
+
+For those looking for a better option to automate your printer using a Tuya device I strongly recommend getting a new Pi or an old PC, setup Home Assistant and create an automation to detect when  your printer finishes to turn off the Tuya Outlet and vice-versa.
+Home Assistant can fully integrate natively with Octoprint and Tuya and be able to access a ton of infos front Octoprint out of the box like printer status, print time, temps and list go on. 
+Home Assistant is very easy to setup, and this integrations are completely hassle free, far more easy than tweaking with Tuya cloud, API Keys that are needed for this plugin.
 
 # OctoTuya-SmartPlug
 With this plugin you'll be able to control [Tuya-based](https://en.tuya.com/) SmartPlugs either directly from Octoprint Web interface or through GCODE commands<br>
