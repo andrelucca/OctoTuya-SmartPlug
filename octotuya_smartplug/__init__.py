@@ -359,7 +359,7 @@ class octotuyaPlugin(
             elif cmd.startswith("G4 P1"):
                 name = re.sub(r"^G4 P1\s?", "", cmd)
                 self._octotuya_logger.debug(
-                    "Received @TUYAON command, attempting power on outlet of label %s."
+                    "Received G4 P1 command, attempting power on outlet of label %s."
                     % name
                 )
                 plug = self.plug_search(
@@ -382,7 +382,7 @@ class octotuyaPlugin(
             elif cmd.startswith("G4 P2"):
                 name = re.sub(r"^G4 P2\s?", "", cmd)
                 self._octotuya_logger.debug(
-                    "Received @TUYAOFF command, attempting power off outlet of label %s."
+                    "Received G4 P2 command, attempting power off outlet of label %s."
                     % name
                 )
                 plug = self.plug_search(
