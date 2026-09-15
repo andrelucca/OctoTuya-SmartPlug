@@ -274,8 +274,7 @@ class octotuyaPlugin(
             self._settings.get(["arrSmartplugs"]), "label", pluglabel
         )
         device = tinytuya.OutletDevice(plug["id"], plug["ip"], plug["localKey"])
-        if plug.get("v33"):
-            device.set_version(3.3)
+        device.set_version(float(plug.get("protocolVersion", 3.3)))
 
         commands = {
             "info": ("status", None),
