@@ -69,7 +69,7 @@ class octotuyaPlugin(
                     "displayWarning": True,
                     "warnPrinting": False,
                     "gcodeEnabled": False,
-                    "v33": False,
+                    "protocolVersion": "3.3",
                     "gcodeOnDelay": 0,
                     "gcodeOffDelay": 0,
                     "autoConnect": True,
